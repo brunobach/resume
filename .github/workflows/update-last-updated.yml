@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-last-updated:
+    if: github.actor == 'brunobach'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Atualizar o currículo
+        run: |
+          LAST_UPDATED=$(git log -1 --format=%cd --date=format:"%B %Y")
+          sed -i static/resume.yaml -e "s/lastUpdated:.*/lastUpdated: $LAST_UPDATED/"
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: '[bot] Atualizar o "Last updated" do currículo'
+          commit_user_name: brunobach
+          commit_user_email: bot@brunobach.dev
+          commit_author: brunobach <bot@brunobach.dev>

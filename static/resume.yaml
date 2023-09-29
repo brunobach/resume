@@ -1,0 +1,238 @@
+meta:
+  title: Bruno Bach de Azevedo Curriculo
+  lastUpdated: Setembro 2023
+  viewOn:
+    - name: web
+      link: https://brunobach.dev/resume
+    - name: github
+      link: https://github.com/brunobach/resume
+
+header:
+  name: Bruno Bach de Azevedo
+  title: Engenheiro de Software
+  logo:
+    path: /logos/bruno.jpeg
+    alt: Bruno Bach Imagem
+
+navigation:
+  - name: website
+    alias: brunobach.dev
+    link: https://brunobach.dev
+  - name: mail
+    alias: brunobach_sl
+    link: mailto:brunobach_sl@hotmail.com
+  - name: GitHub
+    alias: "@brunobach"
+    link: https://github.com/brunobach
+  - name: LinkedIn
+    alias: "@bruno-bach"
+    link: https://www.linkedin.com/in/bruno-bach/
+
+education:
+  - name: Instituto Federal de Santa Catarina, Campus Florianópolis
+    link: https://www.ifsc.edu.br/
+    logo: /logos/ifsc.png
+    dates:
+      start: Julho 2020
+      end: Presente
+    degree: Bacharel em Engenharia — Engenharia Eletrônica
+    score: "Junho/2024"
+
+experience:
+  - name: CBYK
+    branding:
+      logo: /logos/cbyk.png
+      color: "#D4441D"
+    link: https://www.cbyk.com.br/
+    links:
+      - name: website
+        link: https://www.cbyk.com.br/
+    dates:
+      start: Maio 2021
+      end: Presente
+    role: "Eng. de Software · PJ"
+    location: Remoto · Florianópolis/SC
+    description:
+      - 2023 · [**Volkswagen Financial Services Brasil**](https://www.vwfs.com.br/) Migração de sistemas legados para uma arquitetura de microserviços, respeitando os padrões de segurança e qualidade da VWFS.
+      - 2022 · [**Bradesco Consórcio**](https://canalconsorciado.bradesco.com.br/) Desenvolvimento de um portal completo para cadastro e analise de novos parceiros, com foco em escalabilidade e segurança.
+      - 2021/2022 · [**Bradesco Consignado**](https://banco.bradesco/html/classic/produtos-servicos/emprestimo-e-financiamento/credito-pessoal-consignado.shtm) Plataforma responsável pela digitalização, armazenamento, e visualização de documentos de contratos. Desenvolvida com foco em análise de fraudes de consignados, OCR para documentos e contratos.
+
+  - name: CIC
+    branding:
+      logo: /logos/cic.jpeg
+      color: "#B7C72C"
+    link: https://cic.perdcomp.com.br/
+    links:
+      - name: website
+        link: https://cic.perdcomp.com.br/
+      - name: webapp
+        link: https://perdcomp.com.br/
+    dates:
+      start: Agosto 2020
+      end: Maio 2020
+    role: "Eng. de Software · PJ"
+    location: Remoto · Florianópolis/SC
+    description:
+      - Webapp desenvolvido em Angular com foco principal em análise de compensações tributárias no Brasil.
+      - Aprimorado a **observabilidade e monitoramento** do `webapp` por meio de integrações otimizadas do Sentry.
+      - Simplificado e substituido as dependências do **RxJS** por **chamadas diretas do Apollo Client para a API GraphQL**, aumentando a capacidade de manutenção e a velocidade do webapp.
+      - Desenvolvimento completo do portfolio junto ao website da empresa através do framework ReactJS com um BFF em Azure Functions.
+
+  - name: Creare
+    branding:
+      logo: /logos/creare.jpeg
+      color: "#000000"
+    link: https://www.crearesistemas.com.br/pt/
+    links:
+      - name: website
+        link: https://www.crearesistemas.com.br/pt/
+      - name: frotalog
+        link: https://www.frotalog.com.br/MBServerO/
+    dates:
+      start: Novembro 2019
+      end: Abril 2020
+    role: Desenvolvedor Backend · Estágio
+    location: Presencial · Canoas/RS
+    description:
+      - Bugs resolvidos em várias seções, incluindo o projeto principal **Frotalog** que estabelece metricas, limites e controle de frotas usando telemetria.
+      - Construção de paginas dinâmicas utilizando **JSP** no **Java**.
+      - Desenvolvimento, melhorias e manutenção de **Procedures PL/SQL** Oracle para o projeto **Frotalog** e **Agrolog**.
+      - Desenvolvimento de webapp referente a gastos de centro de custos internos, usando **NextJS**, **ReactJS** e **TypeScript**.
+
+  - name: Linx
+    branding:
+      logo: /logos/linx.jpeg
+      color: "#49185A"
+    link: https://www.linx.com.br/
+    links:
+      - name: website
+        link: https://www.linx.com.br/
+    dates:
+      start: Dezembro 2018
+      end: Novembro 2019
+    role: Analista de Software · Júnior
+    location: Presencial · Porto Alegre/RS
+    description:
+      - Correções de bugs no **aplicativo PDV** em **ElectronJS** da rede de conveniencias BR Mania (Petrobras).
+      - Desenvolvi mais de 50 testes unitários usando Jest e React Testing Library para validar os fluxos e comportamentos dos usuários.
+      - Desenvolvi um parser de XML para JSON para o projeto de integração de NFC-e com o PDV.
+
+  - name: Stihl
+    branding:
+      logo: /logos/stihl.jpeg
+      color: "#F37A1F"
+    link: https://www.stihl.com.br/
+    links:
+      - name: website
+        link: https://www.stihl.com.br/
+    dates:
+      start: Abril 2013
+      end: Abril 2015
+    role: Eng. de Software · Estágio
+    location: Presencial · São Leopoldo/RS
+    description:
+      - Auxiliava no desenvolvimento e estruturação de dados para dimensionamento de estoque.
+      - Desenvolvimento **SAP ABAP** para integração de dados entre o sistema **SAP EC 6.0** e o sistema de dimensionamento de estoque construido em **python**.
+      - Desenvolvimento de visões SAP dos itens MRO.
+
+projects:
+  - name: Proffy
+    subtitle: Plataforma de estudos online
+    link: https://github.com/brunobach/Proffy
+    links:
+      - name: GitHub
+        link: https://github.com/brunobach/Proffy
+    description:
+      - Projetado e arquitetado do zero pela RocketSeat usando **Node.js**, **ReactJS**, **React Native** e **Expo**.
+      - Publicado backend no **Heroku** e frontend no **Netlify**.
+      - Desenvolvido com foco em **responsividade** e **mobile-first**.
+
+  - name: Mapa coroplético São Leopoldo
+    subtitle: Prefeitura de São Leopoldo
+    link: https://github.com/brunobach/map-sao-leopoldo
+    links:
+      - name: GitHub
+        link: https://github.com/brunobach/map-sao-leopoldo
+      - name: Painel COVID-19
+        link: https://www.saoleopoldo.rs.gov.br/coronavirus
+    description:
+      - Criação de um mapa coroplético para o município de São Leopoldo/RS com o intuito de adicionar interatividade aos usuários do Painel "Coronavírus" da Prefeitura de São Leopoldo CoronaVirus.
+      - Utilizado OpenStreetMap para geração de um arquivo GEOJson para limites de bairros da cidade.
+      - Utilizado pela população para prevenção de areas de riscos na Pandemia de Covid.
+
+  - name: Readme Generator
+    subtitle: Gerar o Readme de maneira simplificada
+    link: https://github.com/brunobach/readme-generator
+    links:
+      - name: GitHub
+        link: https://github.com/brunobach/readme-generator
+    description:
+      - Desenvolvi um gerador de **README.md** para facilitar a criação de documentações de repositorios.
+      - Desenvolvido em **Node.js** com template render **EJS**.
+
+  - name: Logify
+    subtitle: Centralizador de logs
+    link: https://github.com/brunobach/logify
+    links:
+      - name: GitHub
+        link: https://github.com/brunobach/logify
+      - name: DockerHub
+        link: https://hub.docker.com/r/brunobach/logify
+    description:
+      - Desenvolvi um centralizador de logs para facilitar a visualização de logs de aplicações no kubernetes que não possuem essa funcionalidade.
+      - Desenvolvido em **Svelte** e **Golang**.
+      - Serve como uma UI de aplicações que precisam enviar certas requisões para o servidor.
+
+highlights:
+  - "**TDC 2019** - Porto Alegre/RS [**TDC**](https://thedevconf.com/tdc/2019/)"
+  - "**MBTC IBM** - Maratona Behind the Code 2020. [**FIAP**](https://github.com/brunobach/mbtc)"
+  - "**GopherCon Brasil 2022** - Florianópolis/SC. [**GopherCon**](https://gopherconbr.org/)"
+  - "**Front in Floripa 2022** - Florianópolis/SC. [**Frontin**](https://frontin.floripa.br/)"
+  - "**RS/XP 2023** - São Paulo/SP. [**RS/XP**](https://www.rocketseat.com.br/eventos/rsxp)"
+  - "**GopherCon Brasil 2023** - Florianópolis/SC. [**GopherCon**](https://gopherconbr.org/)"
+
+skills:
+  - type: Linguagens
+    items:
+      - Golang
+      - TypeScript/JavaScript
+      - HTML/CSS
+      - Python
+      - Java
+      - C/C++
+      - PL/SQL Oracle / T-SQL SQL Server
+
+  - type: Frameworks e Tecnologias
+    items:
+      - GIN
+      - Fiber
+      - NestJS
+      - Prisma
+      - Docker
+      - Kubernetes
+      - NextJS
+      - Jest
+      - Pytest
+      - React
+      - Svelte(Kit)
+      - Angular
+      - Tailwind CSS
+      - Nginx
+      - GRAPHQL
+      - REST
+      - SQL
+      - NoSQL
+  - type: Ferramentas
+    items:
+      - Figma
+      - Git
+      - Insomnia
+      - Github
+      - VSTS
+  - type: Platforms
+    items:
+      - Linux
+      - Azure
+      - AWS
+      - GCP
+      - DigitalOcean
