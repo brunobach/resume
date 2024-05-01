@@ -1,6 +1,6 @@
 meta:
   title: Bruno Bach de Azevedo Curriculo
-  lastUpdated: Setembro 2023
+  lastUpdated: Maio 2024
   viewOn:
     - name: web
       link: https://brunobach.dev
@@ -39,6 +39,22 @@ education:
     score: "Junho/2024"
 
 experience:
+  - name: Conta Azul
+    branding:
+      logo: /logos/contaazul.png
+      color: "#2687E9"
+    link: https://contaazul.com/
+    links:
+      - name: website
+        link: https://contaazul.com/
+    dates:
+      start: Dezembro 2023
+      end: Presente
+    role: "Eng. de Software · CLT"
+    location: Remoto · Florianópolis/SC
+    description:
+      - 2023/2024 · [**GROWTH**](https://engineering.contaazul.com/) Equipe de Growth Hacking para impulsionar o crescimento da empresa, especialmente em relação ao ERP financeiro, backend em Golang/Java com o frontend em VUE.
+
   - name: CBYK
     branding:
       logo: /logos/cbyk.png
